@@ -1,13 +1,45 @@
- text {
+body {
     text-align: center;
     margin: auto;
     text-align: justify;
     padding:100px;
     line-height: 0.7cm;
     font:bold;
-    font-family: "Montserrat";
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
+.center {
+  border: 0px solid;
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.body_new {
+    background-color: #e8e5da;
+    text-align: center;
+    margin: auto;
+    text-align: justify;
+    padding:100px;
+    line-height: 0.7cm;
+    font:bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+}
+
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 0px black;
 }
 
 .imagelogo{
@@ -28,10 +60,10 @@
   width: auto;
   height: auto;
 }
-.h1{
+h1{
     color: #1A3A3A;
     margin-right: 100px;
-    font-family: "League Spartan";
+    font-family: "League Spartan", sans-serif;
     font-weight: bold;
 
 
@@ -82,4 +114,29 @@
   .ainstagram {
     color:#833AB4;
     padding: auto;
+  }
+
+
+  header[role="banner"] {
+    #logo-main {
+      display: block;
+      margin: 20px auto;
+    }
+  }
+
+  #navbar-primary.navbar-default {
+    background: transparent;
+    border: none;
+    .navbar-nav {
+      width: 100%;
+      text-align: center;
+      > li {
+        display: inline-block;
+        float: none;
+        > a {
+          padding-left: 30px;
+          padding-right: 30px;
+          }
+      }
+    }
   }
