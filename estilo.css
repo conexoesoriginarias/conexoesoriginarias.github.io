@@ -1,0 +1,87 @@
+.text {
+    text-align: center;
+    margin: auto;
+    text-align: justify;
+    padding:100px;
+    line-height: 0.7cm;
+    font:bold;
+    font-family: "Montserrat";
+
+    
+}
+
+.imagelogo{
+    margin: auto;
+    display: block;
+    width: auto;
+    height: auto;
+}
+.imagevideo{
+  margin: auto;
+  display: block;
+  width: auto;
+  height: auto;
+}
+.image{
+  margin: auto;
+  display: block;
+  width: auto;
+  height: auto;
+}
+.h1{
+    color: #1A3A3A;
+    margin-right: 100px;
+    font-family: "League Spartan";
+    font-weight: bold;
+    
+
+    padding: auto;
+}
+.image2{
+    margin: right;
+    display: block;
+    padding: 10px;
+    
+}
+.text2{
+    text-align:justify;
+    margin-left: 50px;
+    margin-right: 0%;
+    margin-top: 0%;
+
+    padding:auto;
+    line-height: 0.8cm;
+    font:bold;
+    font-family: "Montserrat";
+    
+
+}
+
+.table{
+    margin: auto;
+    padding: auto;
+}
+
+.social{
+  
+  padding: 25px 50px;
+  text-align: center;
+  color: #1A3A3A;
+  text-align: center;
+  margin: auto;
+ 
+  
+   
+    
+}
+  .afacebook {
+    color:#4267B2;
+    padding: auto;
+  }
+  
+  .ainstagram {
+    color:#833AB4;
+    padding: auto;
+  }
+
+
