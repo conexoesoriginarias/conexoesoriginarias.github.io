@@ -1,4 +1,4 @@
-.text {
+ text {
     text-align: center;
     margin: auto;
     text-align: justify;
@@ -7,7 +7,7 @@
     font:bold;
     font-family: "Montserrat";
 
-    
+
 }
 
 .imagelogo{
@@ -33,7 +33,7 @@
     margin-right: 100px;
     font-family: "League Spartan";
     font-weight: bold;
-    
+
 
     padding: auto;
 }
@@ -41,7 +41,7 @@
     margin: right;
     display: block;
     padding: 10px;
-    
+
 }
 .text2{
     text-align:justify;
@@ -53,7 +53,7 @@
     line-height: 0.8cm;
     font:bold;
     font-family: "Montserrat";
-    
+
 
 }
 
@@ -63,25 +63,23 @@
 }
 
 .social{
-  
+
   padding: 25px 50px;
   text-align: center;
   color: #1A3A3A;
   text-align: center;
   margin: auto;
- 
-  
-   
-    
+
+
+
+
 }
   .afacebook {
     color:#4267B2;
     padding: auto;
   }
-  
+
   .ainstagram {
     color:#833AB4;
     padding: auto;
   }
-
-
