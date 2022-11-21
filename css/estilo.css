@@ -64,13 +64,14 @@ body {
   height: auto;
 }
 
-.h1_new{
+.h1_new {
     color: #1A3A3A;
     margin-right: 100px;
     font-family: "League Spartan", sans-serif;
     font-weight: bold;
     padding: auto;
 }
+
 .image2{
     margin: right;
     display: block;
