@@ -7,7 +7,6 @@ body {
     text-align: justify;
     padding:100px;
     line-height: 0.7cm;
-    font:bold;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -149,47 +148,3 @@ body {
 ul {
     list-style-type: none;
   }
-
-.navbar2{
-background-color: #1A3A3A;
-color:#fff;
-height: 70px;
-}
-
-.navbar2 .flex {
-justify-content: space-between;
-}
-
-.navbar2 ul{
-  display:flex;
-}
-
-.navbar2 a {
-  color: #fff;
-  padding: 10px;
-  margin: 0 5px;
-}
-
-.navbar2 a:hover {
-  border-bottom: 2px #fff solid;
-}
-
-
-.container2 {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.a_nav2 {
-  text-decoration: none;
-  color: #333;
-}
