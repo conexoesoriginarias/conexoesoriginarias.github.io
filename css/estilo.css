@@ -6,6 +6,27 @@
   --header-color: #1A3A3A;
 }
 
+/* Tablets and under */
+@media(max-width: 768px){
+
+}
+
+/* Mobile */
+@media(max-width: 500px){
+  .navbar2 {
+    height:110px;
+  }
+  .navbar2 .flex{
+    flex-direction:column;
+  }
+  .navbar2 ul{
+    padding:100px;
+    background-color: rgba(0,0,0,0,0.1);
+  }
+}
+
+
+
 
 body {
   background-color: var(--primary-color);
@@ -240,7 +261,7 @@ ul {
 
   .showcase .grid {
     overflow: visible;
-    grid-template-columns: 70% auto;
+    grid-template-columns: 80% auto;
     gap: 10px;
   }
 
