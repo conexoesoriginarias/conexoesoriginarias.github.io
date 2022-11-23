@@ -23,6 +23,17 @@
     padding:100px;
     background-color: rgba(0,0,0,0,0.1);
   }
+
+
+  .showcase .h1_new {
+      color: var(--header-color);
+      margin-right: 100px;
+      font-family: "League Spartan", sans-serif;
+      font-weight: bold;
+      font-size:6vw;
+      white-space: nowrap;
+      /* padding: auto; */
+  }
 }
 
 
@@ -237,6 +248,7 @@ ul {
   /* Showcase*/
   .showcase {
     height: 800px;
+    width:400px;
     background-color: var(--primary-color);
     color: #000000;
     position: relative;
