@@ -65,42 +65,6 @@
 
 
 
-
-
-
-
-
-
-
-.container-footer {
-  margin-right: auto;
-  margin-left:auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  overflow: hidden;
-}
-
-.container-footer:before,
-.container-footer:after {
-    content: "";
-    display: table;
-}
-
-.container-footer:after {
-    clear: both;
-}
-
-
-
-
-
-
-.grid-3 {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-
-
 .a_nav {
   text-decoration: none;
   color: #333;

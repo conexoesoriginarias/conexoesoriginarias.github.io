@@ -1,0 +1,55 @@
+
+
+/* Margin */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 65px;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.py-5 {
+  padding: 3rem 0;
+
+}
+.p-5 {
+  padding: 4rem;
+}
+
+
+
+.element {
+  width: 300px:
+  float:left;
+  /* border:1px solid white; */
+  white-space: nowrap;
+}
