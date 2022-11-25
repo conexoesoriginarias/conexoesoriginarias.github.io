@@ -53,3 +53,50 @@
   /* border:1px solid white; */
   white-space: nowrap;
 }
+
+
+/* Cli */
+.cli .grid {
+  padding: 1px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  align-items:stretch;
+  align-content: stretch;
+
+  /* margin-left: 10px; */
+
+}
+
+/* .grid_equipe {
+display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,auto);
+} */
+
+.container-equipe {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto 1fr 1fr;
+  grid-row-gap: 0;
+  padding:15px;
+  align-items: center;
+}
+
+
+.container-equipe img {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.item {
+  /* padding: 20px;
+  margin: 0 12px; */
+  padding:20px;
+  line-height: 2;
+
+}
+
+.bio {
+  
+}
