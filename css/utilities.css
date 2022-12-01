@@ -23,7 +23,7 @@
 
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 30px;
 }
 
 .grid-4 {
@@ -52,6 +52,7 @@
   float:left;
   /* border:1px solid white; */
   white-space: nowrap;
+  display: flex;
 }
 
 
@@ -98,5 +99,5 @@ grid-template-rows: repeat(2,auto);
 }
 
 .bio {
-  
+
 }
