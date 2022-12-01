@@ -154,6 +154,12 @@ img {
 }
 
 
+
+.neutro {
+
+}
+
+
 .container-footer {
   margin-right: auto;
   margin-left:auto;
@@ -209,6 +215,7 @@ img {
 
 /* Mobile */
 @media(max-width: 500px){
+
 
   .navbar {
     height:50px;
@@ -270,7 +277,11 @@ img {
 
   .element {
     white-space: nowrap;
+    margin: 0 auto;
+
   }
+
+
 
   .container-equipe {
     display: grid;
