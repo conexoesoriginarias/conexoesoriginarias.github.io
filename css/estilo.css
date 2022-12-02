@@ -68,9 +68,7 @@ img {
     padding: auto;
 }
 
-.text_secondary {
-  font-size: 16px;
-}
+
 
 
 /* Showcase */
@@ -97,11 +95,7 @@ img {
   padding-top: 10px;
 }
 
-.footer-section {
-  padding-top: 10px;
-  position: relative;
-  overflow:auto;
-}
+
 
 .text-description {
   position:relative;
@@ -155,53 +149,6 @@ img {
 
 
 
-.neutro {
-
-}
-
-
-.container-footer {
-  margin-right: auto;
-  margin-left:auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  overflow: hidden;
-}
-
-
-
-
-.footer {
-  /* padding-top:100px; */
-  animation: slideInFromBottom 1s ease-in;
-}
-
-.footer-heading {
-  max-width:100px;
-  margin:auto;
-}
-
-
-
-.footer .social a {
-  margin: 0 10px;
-}
-
-
-
-
-
-.container-footer:before,
-.container-footer:after {
-    content: "";
-    display: table;
-}
-
-.container-footer:after {
-    clear: both;
-}
-
-
 
 
 
@@ -217,27 +164,7 @@ img {
 @media(max-width: 500px){
 
 
-  .navbar {
-    height:50px;
-  }
 
-  .navbar .flex{
-    /* justify-content:center; */
-    flex-direction:column;
-    align-items: unset;
-  }
-
-  .navbar ul{
-    padding:10px;
-    /* background-color: rgba(0, 0, 0, 0.1); */
-  }
-
-  .navbar a {
-    /* font-weight: 700; */
-    font-size: 12px;
-    padding: 5px;
-    margin: 0 3px;
-  }
 
   .container {
     width: 750px;
@@ -275,11 +202,6 @@ img {
     gap: 2px;
   }
 
-  .element {
-    white-space: nowrap;
-    margin: 0 auto;
-
-  }
 
 
 
@@ -309,36 +231,6 @@ img {
   .bio{
     text-align: justify;
   }
-
-
-  /* .showcase .h1_new {
-      color: var(--header-color);
-      margin-right: 100px;
-      font-family: "League Spartan", sans-serif;
-      font-weight: bold;
-      font-size:6vw;
-      white-space: nowrap;
-
-  }
-
-  .showcase p {
-    margin: 0px 10px;
-    color: var(--text-color);
-    line-height: 0.8cm;
-    text-align: justify;
-    font-size: 16px;
-    margin-block: 0% 3%;
-} */
-
-/* .showcase .grid {
-  overflow: visible;
-  grid-template-columns: 80% 0;
-  gap: 10px;
-} */
-
-
-
-
 
   .infografico{
     width:100%;
@@ -437,39 +329,6 @@ img {
 
 
 
-/* Backgrounds & colored buttons */
-.bg-primary,
-.btn-primary {
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
-.bg-secondary,
-.btn-secondary {
-  background-color: var(--secondary-color);
-  color: #fff;
-}
-
-.bg-dark,
-.btn-dark {
-  background-color: var(--dark-color);
-  color: #fff;
-}
-
-.bg-light,
-.btn-light {
-  background-color: var(--light-color);
-  color: #333;
-}
-
-.bg-primary a,
-.btn-primary a,
-.bg-secondary a,
-.btn-secondary a,
-.bg-dark a,
-.btn-dark a {
-  color: #fff;
-}
 
 
 

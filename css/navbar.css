@@ -7,6 +7,10 @@
 }
 
 
+ul {
+    list-style-type: none;
+}
+
 /*NAVBAR STYLE*/
 
 
@@ -68,4 +72,30 @@
 .a_nav {
   text-decoration: none;
   color: #333;
+}
+
+
+@media(max-width: 500px){
+  .navbar {
+    height:50px;
+  }
+
+  .navbar .flex{
+    /* justify-content:center; */
+    flex-direction:column;
+    align-items: unset;
+  }
+
+  .navbar ul{
+    padding:10px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+  }
+
+  .navbar a {
+    /* font-weight: 700; */
+    font-size: 12px;
+    padding: 5px;
+    margin: 0 3px;
+  }
+
 }
