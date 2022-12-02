@@ -197,10 +197,10 @@ img {
     font-size: 25px;
   }
 
-  .grid-3 {
+  /* .grid-3 {
     grid-template-columns: repeat(1, 1fr);
     gap: 2px;
-  }
+  } */
 
 
 

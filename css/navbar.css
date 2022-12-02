@@ -18,6 +18,7 @@ ul {
   background-color: var(--primary-color);
   color: var(--header-color);
   height: 70px;
+  width: 100%;
 }
 
 .navbar .flex {
@@ -36,6 +37,7 @@ ul {
   font-size: 20px;
   padding: 5px;
   margin: 0 5px;
+
 }
 
 .navbar a:hover {
