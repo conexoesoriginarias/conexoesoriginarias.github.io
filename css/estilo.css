@@ -54,6 +54,13 @@ p {
   margin: 10px 0;
 }
 
+.infografico {
+  display:block;
+  margin:auto;
+  width:70%;
+  justify-content: center;
+}
+
 img {
   width: 100%; /*keep images in tbe container*/
 }
@@ -282,11 +289,7 @@ img {
 
 /* } */ */
 
-.infografico{
-  display:block;
-  margin:auto;
-  width:100%;
-}
+
 
 
 
