@@ -30,6 +30,8 @@ ul {
     list-style-type: none;
 }
 
+
+
 a {
   text-decoration: none;
 }
@@ -52,6 +54,21 @@ h4 {
 
 p {
   margin: 10px 0;
+}
+
+.ul_survey {
+  list-style-type: disc;
+   margin-left:40px;
+   padding-left: 0;
+}
+
+.a_survey: {
+  text-decoration: none;
+  color: #1A3A3A;
+}
+
+.a_survey:hover {
+  border-bottom: 2px #1A3A3A solid;
 }
 
 .infografico {
