@@ -589,3 +589,16 @@ float:left;
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert-success {
+  background-color: var(--dark-color:);
+  color: #fff;
+}
