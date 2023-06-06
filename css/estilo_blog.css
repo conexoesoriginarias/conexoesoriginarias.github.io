@@ -181,7 +181,7 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 }
 
 .user__image {
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 .user__info > small {
